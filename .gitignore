@@ -1,0 +1,29 @@
+# === Gradle ===
+.gradle/
+**/build/
+build/
+
+# === IDE ===
+.idea/
+*.iml
+
+# === Local properties ===
+local.properties
+
+# === Keystores ===
+*.jks
+*.keystore
+
+# === OS / Misc ===
+.DS_Store
+*.log
+
+# === Kotlin / KSP ===
+**/kspGenerated/
+
+# === Android artifacts ===
+*.apk
+*.ap_
+
+# === Test coverage ===
+coverage/

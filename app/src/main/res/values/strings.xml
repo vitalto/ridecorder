@@ -1,0 +1,366 @@
+<resources>
+    <string name="app_name">Ridecorder</string>
+
+    <string name="unknown_error">Неизвестная ошибка</string>
+    <!-- Заголовки и кнопки экрана авторизации -->
+    <string name="login_screen_title">Войдите в Ridecorder</string>
+    <string name="login_close">Закрыть</string>
+    <string name="email">Email</string>
+    <string name="password">Пароль</string>
+    <string name="forgot_password">Забыли пароль?</string>
+    <string name="login_button">Войти</string>
+
+    <!-- Состояния авторизации -->
+    <string name="auth_success">Авторизация успешна!</string>
+    <!-- Использование параметризованной строки для ошибки -->
+    <string name="auth_error">Ошибка: %1$s</string>
+
+    <!-- Экран регистрации -->
+    <string name="registration_close">Закрыть</string>
+    <string name="registration_title">Создать аккаунт</string>
+    <!-- Если требуется сообщение о минимальной длине пароля -->
+    <string name="password_min_length">Минимальная длина пароля – 8 символов.</string>
+    <string name="registration_button">Зарегистрироваться</string>
+    <string name="registration_success">Регистрация успешна!</string>
+    <string name="registration_error">Ошибка: %1$s</string>
+
+    <string name="start_login">Войти</string>
+    <string name="start_register">Присоединиться бесплатно</string>
+
+    <!-- Заголовки экранов и секций -->
+    <string name="analysis_title">Анализ тренировок</string>
+    <string name="no_data_message">Нет данных за выбранный период</string>
+    <string name="graphs_section_title">Графики анализа</string>
+    <string name="first_training">Первая тренировка</string>
+    <string name="second_training">Вторая тренировка</string>
+
+    <!-- common -->
+    <string name="ok">ОК</string>
+    <string name="cancel">Отмена</string>
+    <string name="select_dates">Выберите даты</string>
+    <string name="error_occurred">Произошла ошибка</string>
+    <string name="retry">Повторить</string>
+    <string name="user_avatar">Аватар пользователя</string>
+    <string name="no_name">Без названия</string>
+    <string name="start_time">Начало: %1$s</string>
+    <string name="liked">Лайкнут</string>
+    <string name="not_liked">Не лайкнут</string>
+    <string name="my_geoposition">Моё местоположение</string>
+    <string name="gps_bad_accuracy">"Низкая точность GPS"</string>
+    <string name="no_internet_icon_desc">Нет интернета</string>
+    <string name="no_internet_title">Нет подключения к интернету</string>
+    <string name="no_internet_message">Проверьте соединение и попробуйте снова.</string>
+    <string name="retry_button">Повторить попытку</string>
+
+    <!-- feed -->
+    <string name="feed_title">Лента</string>
+    <string name="empty_feed_icon_desc">Пусто</string>
+    <string name="empty_feed_title">Лента пуста</string>
+    <string name="empty_feed_message">Похоже, никто из тех, на кого вы подписаны, ещё не опубликовал тренировку.</string>
+
+    <!-- helpers -->
+    <string name="format_duration_hms">%1$d:%2$02d:%3$02d ч</string>
+    <string name="format_duration_ms">%1$d:%2$02d мин</string>
+    <string name="placeholder_na">N/A</string>
+    <string name="unit_kilometers">км</string>
+    <string name="permission_required_title">Требуется разрешение</string>
+    <string name="permission_required_message">
+        Для отслеживания заезда требуется разрешение на определение точного местоположения.
+        Чтобы включить доступ, перейдите в настройки приложения.
+    </string>
+    <string name="open_settings">Открыть настройки</string>
+
+    <!-- main -->
+    <string name="tab_feed">Лента</string>
+    <string name="tab_workouts">Тренир-ки</string>
+    <string name="tab_record">Запись</string>
+    <string name="tab_analysis">Анализ</string>
+    <string name="tab_profile">Профиль</string>
+
+    <!-- profile -->
+    <!-- Заголовок экрана и навигация -->
+    <string name="profile_edit_title">Редактирование профиля</string>
+    <string name="back">Назад</string>
+
+    <!-- Аватар -->
+    <string name="avatar">Аватар</string>
+    <string name="change_avatar">Изменить аватар</string>
+    <string name="delete_avatar">Удалить аватар</string>
+
+    <!-- Поля профиля -->
+    <string name="name">Имя</string>
+    <string name="username">Логин</string>
+    <string name="weight_kg">Вес (кг)</string>
+
+    <!-- Выбор пола -->
+    <string name="gender">Пол:</string>
+    <string name="male">Мужской</string>
+    <string name="female">Женский</string>
+
+    <!-- Параметры профиля -->
+    <string name="private_profile">Приватный профиль</string>
+
+    <!-- Кнопка сохранения -->
+    <string name="save">Сохранить</string>
+
+    <!-- Результат обновления -->
+    <string name="profile_updated_success">Профиль успешно обновлён!</string>
+    <string name="profile_update_error">Ошибка: %1$s</string>
+
+    <string name="profile_load_error">Не удалось загрузить профиль</string>
+    <string name="avatar_delete_error">Ошибка при удалении аватара</string>
+    <string name="internet_issue">Проблема с интернетом</string>
+
+    <!-- Заголовки, подписи и форматированные строки -->
+    <string name="profile_screen_title">Мой профиль</string>
+    <!-- Форматированное значение для чужого профиля (placeholder %s под логин или имя пользователя) -->
+    <string name="profile_title_prefix">Профиль %s</string>
+
+    <!-- Дата регистрации -->
+    <string name="registration_date">Дата регистрации: %s</string>
+
+    <!-- Подписчики и подписки -->
+    <string name="followers">Подписчики: %1$d</string>
+    <string name="following">Подписки: %1$d</string>
+
+    <!-- Кнопки действий -->
+    <string name="friends_add">Добавить друзей</string>
+    <string name="subscribe">Подписаться</string>
+    <string name="unsubscribe">Отписаться</string>
+    <string name="share">Поделиться</string>
+
+    <!-- Заголовки секций -->
+    <string name="workouts_section">Тренировки</string>
+    <string name="overview">Обзор</string>
+
+    <!-- Карточка статистики -->
+    <string name="stat_trainings">Тренировок</string>
+    <string name="stat_kilometers">Километров</string>
+    <string name="stat_time">Время</string>
+    <string name="stat_avg_speed">Ср. скорость</string>
+
+    <string name="stat_max_speed">Макс. скорость</string>
+    <string name="stat_max_pace">Макс. темп</string>
+
+    <!-- TopAppBar для моего профиля -->
+    <string name="edit_profile">Редактировать профиль</string>
+    <string name="logout">Выйти</string>
+    <string name="more">Больше</string>
+    <string name="format_duration">%1$d ч %2$d мин</string>
+
+    <!-- Заголовки и прочее -->
+    <string name="search_friends_title">Поиск друзей</string>
+    <string name="search_placeholder">Введите имя или @username</string>
+
+    <!-- Для состояний пустых списков -->
+    <string name="empty_start_search">Начните ввод, чтобы найти друзей</string>
+    <string name="empty_no_results">Ничего не найдено</string>
+
+    <!-- Для элементов пользователя -->
+    <string name="anonymous">Аноним</string>
+
+    <!-- Сообщения об ошибке и пустом списке -->
+    <string name="users_load_error">Не удалось получить список пользователей</string>
+    <string name="empty_list">Список пуст</string>
+
+
+    <!-- Заголовок и кнопки TopAppBar -->
+    <string name="recording_save_title">Сохранить</string>
+    <string name="recording_save_button_save">СОХРАНИТЬ</string>
+
+    <!-- Placeholder’ы для текстовых полей -->
+    <string name="ride_name_placeholder">Дайте название велозаезду</string>
+    <string name="ride_description_placeholder">Расскажите, как прошла тренировка</string>
+
+    <!-- Метки выпадающих списков (ComboBox) -->
+    <string name="ride_type_label">Тип заезда</string>
+    <string name="who_can_view_label">Кто может просматривать</string>
+
+    <!-- Кнопка удаления -->
+    <string name="delete_workout">Удалить тренировку</string>
+
+    <string name="ride_name_default_format">Тренировка от %s</string>
+
+    <!-- Заголовки и кнопки верхней панели -->
+    <string name="record_hide">Скрыть</string>
+    <string name="record_title">Заезд</string>
+    <string name="record_settings">Настройки</string>
+
+    <!-- Диалог возобновления незавершённого маршрута -->
+    <string name="resume_dialog_title">Незавершённый маршрут</string>
+    <string name="resume_dialog_message">Обнаружен незавершённый маршрут. Продолжить его запись?</string>
+    <string name="resume_dialog_confirm">Продолжить</string>
+    <string name="resume_dialog_dismiss">Удалить</string>
+
+    <!-- Статистика (нижняя часть экрана) -->
+    <string name="current_speed">Текущая скорость</string>
+    <string name="time">Время</string>
+    <string name="distance">Дистанция</string>
+    <string name="avg_speed">Ср. скорость</string>
+
+    <!-- Тексты кнопок для записи -->
+    <string name="start">Старт</string>
+    <string name="resume">Продолжить</string>
+    <string name="pause">Пауза</string>
+    <string name="finish">Финиш</string>
+
+    <!-- Для блока с пульсом -->
+    <string name="heart_rate">Пульс</string>
+
+    <!-- Заголовки и кнопки верхней панели -->
+    <string name="recording_settings_title">Настройки записи</string>
+
+    <!-- Настройка паузы -->
+    <string name="pause_on_idle_label">Ставить на паузу на время бездействия</string>
+
+    <!-- Выбор устройства -->
+    <string name="selected_device_label">Выбранное устройство</string>
+    <string name="device_not_selected">Не выбрано</string>
+    <string name="scan">Сканировать</string>
+
+    <!-- Диалог выбора устройства -->
+    <string name="device_select_title">Выберите устройство</string>
+    <string name="device_scan_no_permission">Нет разрешения на поиск устройств</string>
+    <string name="device_scanning">Идет поиск устройств…</string>
+    <string name="unknown_device">Неизвестное устройство</string>
+
+    <!-- Заголовок верхней панели -->
+    <string name="choose_workout_title">Выберите тренировку для сравнения</string>
+    <!-- Сообщение при отсутствии тренировок -->
+    <string name="no_available_workouts">Нет доступных тренировок</string>
+
+    <!-- Шапка экрана сравнения тренировок -->
+    <string name="compare_workouts_title">Сравнение тренировок</string>
+
+    <!-- Заголовок шапки в сравнении: если имя не задано, использовать форматированный fallback -->
+    <string name="workout_with_id">Тренировка #%1$d</string>
+
+    <!-- Заголовок таблицы сравнения -->
+    <string name="comparative_metrics">Сравнительные показатели</string>
+
+    <!-- Метрики (строки для CompareRow) -->
+    <string name="duration">Длит-ть</string>
+    <string name="avg_speed_short">Ср. скор-ть</string>
+    <string name="altitude_gain">Набор высоты</string>
+    <string name="avg_heart_rate">Ср. пульс</string>
+    <string name="calories">Калории</string>
+
+    <!-- Названия графиков (Сравнение тренировок и информация о тренировке)-->
+    <string name="chart_speed_time">График изменения скорости велосипедиста во время тренировки</string>
+    <string name="chart_speed_distance">График изменения скорости велосипедиста в зависимости от пройденной дистанции от начала тренировки</string>
+    <string name="chart_altitude_time">График изменения высоты относительно начальной точки во время тренировки</string>
+    <string name="chart_altitude_distance">График изменения высоты относительно начальной точки в зависимости от пройденной дистанции от начала тренировки</string>
+    <string name="chart_heart_rate_distance">График изменения пульса велосипедиста в зависимости от пройденной дистанции от начала тренировки</string>
+    <string name="chart_heart_rate_time">График изменения пульса велосипедиста во время тренировки</string>
+    <string name="chart_workload_efficiency_time">График изменения эффективности нагрузки велосипедиста во время тренировки</string>
+    <string name="chart_workload_efficiency_distance">График изменения эффективности нагрузки велосипедиста в зависимости от пройденной дистанции от начала тренировки</string>
+    <string name="chart_cumulative_load">График накопленной нагрузки велосипедиста во время тренировки</string>
+    <string name="chart_recovery_phases">График фаз восстановления велосипедиста после участков высокой нагрузки во время тренировки</string>
+
+    <!-- Подписи для осей графиков -->
+    <string name="x_axis_time_seconds">Время с начала тренировки (секунды)</string>
+    <string name="x_axis_time_minutes">Время с начала тренировки (минуты)</string>
+    <string name="x_axis_distance_meters">Дистанция с начала тренировки (метры)</string>
+    <string name="x_axis_distance_kilometers">Дистанция с начала тренировки (км)</string>
+
+    <!-- TopAppBar -->
+    <string name="workout_info_title">Информация о тренировке</string>
+    <string name="edit_workout">Редактировать</string>
+    <string name="export_workout">Экспортировать тренировку</string>
+
+    <!-- Заголовок для HeroHeader – если имя тренировки отсутствует -->
+    <string name="workout_from_date">Тренировка от %s</string>
+    <string name="default_workout_name">Тренировка</string>
+
+    <!-- Ключевые метрики в HeroHeader -->
+    <string name="date">Дата</string>
+
+    <!-- Дополнительная статистика (ExtraStatsSection) -->
+    <string name="calories_label_format">Калории: %s</string>
+    <string name="avg_speed_label_format">Ср. скорость: %s</string>
+    <string name="max_speed_label_format">Макс. скорость: %s</string>
+    <string name="min_speed_label_format">Мин. скорость: %s</string>
+    <string name="altitude_range_label_format">Перепад высот: %s</string>
+    <string name="altitude_gain_label_format">Набор высоты: %s</string>
+    <string name="altitude_loss_label_format">Спуск по высоте: %s</string>
+    <string name="avg_pace_label_format">Средний темп: %s</string>
+    <string name="max_gradient_label_format">Макс. градиент: %s</string>
+    <string name="avg_heart_rate_label_format">Ср. пульс: %s</string>
+    <string name="max_heart_rate_label_format">Макс. пульс: %s</string>
+    <string name="min_heart_rate_label_format">Мин. пульс: %s</string>
+
+    <!-- Разделы экрана -->
+    <string name="workout_description">Описание</string>
+
+    <!-- WorkoutMetaSection -->
+    <string name="workout_type">Тип тренировки</string>
+    <string name="visibility">Видимость</string>
+    <string name="default_visibility">Подписчики</string>
+
+    <string name="compare_workout_button">Сравнить с другой тренировкой</string>
+
+    <!-- Заголовки и кнопки для экрана MyWorkoutsScreen -->
+    <string name="my_workouts_title">Мои тренировки</string>
+    <string name="menu">Меню</string>
+
+    <!-- Строки для экрана пустых тренировок -->
+    <string name="empty_workouts_title">У вас пока нет тренировок</string>
+    <string name="empty_workouts_message">Нажмите «Запись» чтобы начать запись вашего заезда.</string>
+
+    <!-- Строки для статуса синхронизации -->
+    <string name="sync_status_syncing">Синхронизация с сервером…</string>
+    <string name="sync_status_success">Синхронизация успешна</string>
+    <string name="sync_status_error">Ошибка синхронизации</string>
+
+    <!-- Строки для импорта тренировки -->
+    <string name="import_workout_success">Импорт тренировки выполнен</string>
+    <string name="file_not_selected">Файл не выбран</string>
+    <string name="import_workout">Импортировать тренировку</string>
+
+    <!-- Заголовки экрана -->
+    <string name="workout_edit_title">Редактирование тренировки</string>
+
+    <!-- Диалог подтверждения удаления -->
+    <string name="delete_confirmation_title">Подтверждение удаления</string>
+    <string name="delete_confirmation_message">Вы уверены, что хотите удалить эту тренировку?</string>
+
+    <!-- Метки для полей ввода -->
+    <string name="workout_title_label">Название</string>
+    <string name="workout_description_label">Описание</string>
+
+    <!-- Другие метки -->
+    <string name="visibility_label">Видимость</string>
+
+    <!-- Описание для иконки выпадающего списка -->
+    <string name="dropdown_icon_description">Показать варианты</string>
+
+    <!-- Названия графиков (анализ тренировок) -->
+    <string name="chart_calories">Столбчатая диаграмма зависимости суммарного количества сожжённых калорий от порядкового номера тренировки в выбранном периоде</string>
+    <string name="chart_speed_avg">Столбчатая диаграмма динамики изменения средней скорости движения в зависимости от последовательного номера тренировки в выбранном периоде</string>
+    <string name="chart_distance">Столбчатая диаграмма зависимости пройденного расстояния от порядкового номера тренировки в выбранном периоде</string>
+    <string name="chart_altitude_gain">Столбчатая диаграмма зависимости совокупного набора высоты от порядкового номера тренировки в выбранном периоде</string>
+    <string name="chart_pace">Столбчатая диаграмма зависимости изменения темпа выполнения тренировки от порядкового номера тренировки в выбранном периоде</string>
+    <string name="chart_time_in_motion">Столбчатая диаграмма зависимости суммарного времени, проведённого в движении, от порядкового номера тренировки в выбранном периоде</string>
+    <string name="chart_heart_rate_avg">Столбчатая диаграмма зависимости среднего пульса, зафиксированного во время тренировки, от порядкового номера тренировки в выбранном периоде</string>
+
+    <!-- Единицы измерения -->
+    <string name="unit_calories">ккал</string>
+    <string name="unit_speed_kph">км/ч</string>
+    <string name="unit_distance_meters">м</string>
+    <string name="unit_altitude_meters">м</string>
+    <string name="unit_pace">мин/км</string>
+    <string name="unit_time_hours">ч</string>
+    <string name="unit_heart_rate">BPM</string>
+    <string name="unit_training_no">№ тренировки</string>
+    <string name="unit_workload_efficiency">BPM/(км/ч)</string>
+    <string name="unit_recovery_rate">BPM/сек</string>
+    <string name="unit_cu">у.е.</string>
+
+    <!-- Периоды -->
+    <string name="period_week">Неделя</string>
+    <string name="period_month">Месяц</string>
+    <string name="period_custom">Выбрать произвольный период</string>
+    <string name="recording_notification_title">Запись маршрута</string>
+    <string name="recording_notification_text">Идёт запись вашего маршрута</string>
+
+</resources>

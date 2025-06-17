@@ -1,15 +1,16 @@
 
 # Ridecorder • Android client
 
-<img src="docs/screenshot_dashboard.png" width="320" alt="Dashboard" align="right"/>
+<p align="center">
+  <img src="docs/screenshot_dashboard.png" width="220" alt="Dashboard" />
+</p>
 
 **Ridecorder** — open-source приложение для записи и анализа велосипедных тренировок.  
-Лёгкий Jetpack Compose UI, запись GPS-треков в реальном времени и синхронизация с собственным сервером Ridecorder.
+Лёгкий Jetpack Compose UI, запись GPS-треков в реальном времени и синхронизация с [собственным сервером Ridecorder](https://github.com/vitalto/ridecorder-api).
 
 ---
 
 ## Features
-
 * 📍 **Live-tracking**: скорость, дистанция, набор высоты  
 * 🗺️ **Map view** с отрисовкой пройденного маршрута (Yandex Maps)  
 * 📊 **Статистика**: графики мощности, каденса, HR (BLE-датчики)  
@@ -30,17 +31,18 @@
 ## Quick start
 
 ```bash
-git clone https://github.com/ridecorder/ridecorder-app
-cd ridecorder-app
+git clone https://github.com/vital/ridecorder
+cd ridecorder
 ./gradlew installDebug
 # подключите телефон по ADB или запустите эмулятор
 ````
 
-По умолчанию приложение ожидает сервер на `https://api.ridecorder.local`.
+По умолчанию приложение ожидает сервер на `http://localhost`.
 Адрес можно изменить в `local.properties`:
 
 ```
 ridecorder.backendUrl=https://your-server
+ridecorder.mapsApiKey=yandex-maps-api-key
 ```
 
 ## License

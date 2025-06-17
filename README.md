@@ -6,7 +6,7 @@
 </p>
 
 **Ridecorder** — open-source приложение для записи и анализа велосипедных тренировок.  
-Лёгкий Jetpack Compose UI, запись GPS-треков в реальном времени и синхронизация с [собственным сервером Ridecorder](https://github.com/vitalto/ridecorder-api).
+Лёгкий Jetpack Compose UI, запись GPS-треков в реальном времени и синхронизация с [собственным сервером Ridecorder](https://github.com/vitalto/ridecorder-server).
 
 ---
 
